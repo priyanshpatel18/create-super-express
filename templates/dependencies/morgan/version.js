@@ -1,0 +1,2 @@
+export const LATEST_SUPPORT_MORGAN_VERSION = "^1.10.0";
+export const LATEST_SUPPORT_MORGAN_DEV_VERSION = "^1.9.9";

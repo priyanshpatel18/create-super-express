@@ -1,0 +1,1 @@
+export const LATEST_SUPPORT_PRISMA_VERSION = "6.0.1";

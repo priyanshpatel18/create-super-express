@@ -1,0 +1,1 @@
+export const LATEST_SUPPORT_ZOD_VERSION = "^3.24.1";

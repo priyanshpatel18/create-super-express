@@ -1,6 +1,6 @@
 {
   "name": "create-super-express",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "Scalable Express application generator",
   "main": "index.js",
   "type": "module",
@@ -8,8 +8,7 @@
     "create-super-express": "./index.js"
   },
   "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "express",
@@ -21,12 +20,8 @@
   "author": "priyansh.ptl18",
   "license": "ISC",
   "dependencies": {
-    "fs-extra": "^11.1.1",
-    "inquirer": "^12.2.0",
-    "node-emoji": "^2.2.0",
-    "yargs": "^17.7.2"
-  },
-  "devDependencies": {
-    "typescript": "^5.7.2"
+    "@clack/prompts": "^0.8.2",
+    "cfonts": "^3.3.0",
+    "fs-extra": "^11.1.1"
   }
 }
